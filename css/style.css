@@ -1,0 +1,108 @@
+header{width: 100%; height:auto; }
+header .mainMenu{ width: 100%; height: auto;background: #1F8CE6; margin: auto;}
+.mainMenu .mainNav{width: 100%; height: 76px; padding: 16px 16px 24px 20px; margin: 0 auto; display: flex; align-items: center; justify-content: center;}
+
+/* rogo style */
+.mainMenu .mainNav .rogo{ width: auto; height: auto; float: left;margin: 5px; display: flex; align-content: center; justify-content: center;}
+.mainMenu .mainNav .rogo a.rogo_books:hover{opacity: 0.8;}
+.mainMenu .mainNav .rogo a.rogo_select{opacity: 0.8; margin-right: 5px;}
+.mainMenu .mainNav .rogo a.rogo_select:hover{opacity: 1;}
+.mainMenu .mainNav .rogo a img{width: 110px; height: 18px; justify-content: center;}
+.mainMenu .mainNav .rogo:last-child a img{opacity: 0.8;}
+.mainMenu .mainNav .rogo p{font-size: 16px; color: #fff; opacity: 0.8;  margin: 0 10px;}
+
+/* searchForm style */
+.mainMenu .mainNav .searchForm{background: #fff; width: 340px; height: 30px; display:inline-block; align-content: space-between; justify-content: center; border-radius: 5px;}
+.mainMenu .mainNav .searchForm .searchIcon{float: left;}
+.mainMenu .mainNav .searchForm img{width: 20px; height: 20px; margin: 5px;}
+.mainMenu .mainNav .searchForm input{float: left; margin: 5px; font-size: 15px;}
+
+/* top button style */
+.mainMenu .mainNav .topBtns{ width: 368px; height: 30px; display: inline-block;}
+.mainMenu .mainNav .topBtns .btn{float:right;}
+.btn>a button{width: auto; height: 30px;  font-size: 13px; background: #1F8CE6; color: #fff; border: 1px solid #99D1FF; border-radius: 5px; font-weight: 600; float: left; padding: 0 16px 0 16px; margin:0 2px;}
+.btn>a:last-child button{background: #fff; color: #1F8CE6; border: 1px solid #1F8CE6; border-radius: 5px;}
+
+/* top nav style */
+.mainMenu .subNav{width: 100%; height: auto;
+    /* padding: 37px 20px 0 0; */
+}
+.mainMenu .subNavMenu{width: auto; height: auto; padding: 0 20px;  display: flex; margin: auto; }
+
+.mainMenu .subNavMenu li{height:auto; margin-right: 50px;}
+.mainMenu .subNavMenu a{display:flex; padding-bottom: 3px;}
+.mainMenu .subNavMenu li button{width: 100%; height: auto; background: none; padding: 0 5px 8px 4px;}
+.mainMenu .subNavMenu li img{width: 20px; height: 20px; margin-right: 10px;}
+.mainMenu .subNavMenu li i{font-style:normal; font-size: 16px; font-family: ridifont; font-weight: 300; color: #fff; margin-left: 5px}
+.mainMenu .subNavMenu li .line{width: 100%; height: 3px; background: rgb(153, 209, 255); display: block; opacity: 0;}
+.mainMenu .subNavMenu li:hover{opacity: 0.8;}
+.mainMenu .subNavMenu li:hover .line{opacity: 0.8;}
+.mainMenu .subNavMenu li:first-child:hover{opacity: 1;}
+.mainMenu .subNavMenu li:first-child .line{opacity: 1;}
+
+/* subMenu style */
+.subMenu{width:100%; height:auto; border-bottom: 1px solid #E6E8EB; margin-bottom: 20px;}
+.subMenu .subMeneNav{width: 100%; height: 100%;display: flex; }
+.subMenu .subMeneNav li{margin-right: 10px;padding: 0 22px; display: flex;align-content: center;font-family: ridi_applefont;}
+.subMenu .subMeneNav li:first-child{margin-right:0;}
+.subMenu .subMeneNav li .secSubNav{width: 24px; height: 24px; position: relative; top: 5px; fill: #525a61;}
+.subMenu .subMeneNav li a{
+    font-size: 16px;line-height: 48px; 
+}
+.subMenu .subMeneNav>li a img{width: 20px; height: 14px;}
+
+
+/* banner style */
+.content{width: 100%; height: auto; }
+.content .banner{width: 100%; height: 286px; border: 1px solid #1F8CE6;}
+
+/* quickMenu style */
+.content .quickMenuBar{width: 1000px; height: auto;margin: auto; display: flex; justify-content: center; align-content: center; padding: 24px 13px; overflow: auto;}
+.quickMenuBar li{width: 100%; margin-right: 9px;}
+.quickMenuBar li:first-child{padding-left: 10px;}
+.quickMenuBar li:last-child{padding-right: 10px;}
+.quickMenuBar a{position: relative; width: 100%; height: auto; display: flex; align-items: center;flex-direction: column}
+.quickMenuBar .quickMenu {display: flex;align-items: center;justify-content: center;}
+.quickMenu a svg{width: 44px; height: 44px; position: absolute;transform: translate(-50%);left: 50%;}
+.quickMenu a img{width: 44px; height: 44px;z-index:1;}
+.quickMenu a span{min-width: 76px; display: inline-block; font-size: 13px; line-height: 1.23;text-align: center; margin-top: 8px; color: #525a61;}
+
+
+.quickMenuBar li:nth-child(1) .quickMenu a svg{fill: #E8CB99;}
+.quickMenuBar li:nth-child(2) .quickMenu a svg{fill: #99D1CB;}
+.quickMenuBar li:nth-child(3) .quickMenu a svg{fill: #B9BEF1;}
+.quickMenuBar li:nth-child(4) .quickMenu a svg{fill: #99D1CB;}
+.quickMenuBar li:nth-child(5) .quickMenu a svg{fill: #F1C0A7;}
+.quickMenuBar li:nth-child(6) .quickMenu a svg{fill: #ABDCBA;}
+.quickMenuBar li:nth-child(7) .quickMenu a svg{fill: #D5ADEB;}
+.quickMenuBar li:nth-child(8) .quickMenu a svg{fill: #F0B9B9;}
+.quickMenuBar li:nth-child(9) .quickMenu a svg{fill: #BADBA1;}
+
+/* slider style */
+
+.slider{width: 100%; height: 402px; background: url(/ridibooks/data/slide/slide_background.png) center center no-repeat #17202e;padding: 36px 0 ;}
+.slider h1{max-width: 1000px; font-size: 19px; color: #fff;font-weight: normal; font-family: ridi_applefont; margin: 0 auto; padding: 0 8px 0 25px;}
+.slider .sliderCon{width: 1005px;height: 295px;margin: 20px auto 0px; background: olive}
+
+
+/* nowBooks style */
+.nowBooks{ width: 1000px; height:450px;padding: 24px 0; margin: 0 auto;}
+.nowBooks h2{font-weight: normal; font-family: ridi_applefont; font-size: 19px; max-width: 990px; margin: 0 auto 16px; padding: 6px 20px 0;; }
+.nowBooks h2 .time{width: 96px; height: 30px; padding: 9px 13px 9px 9px; margin-bottom: 16px; border-radius: 14px; background-image: linear-gradient(255deg,#0077d9 4%,#72d2e0);}
+.nowBooks .container .nowBook{max-width: 1000px; margin: 0 auto;}
+.nowBooks .container{width: 100%; height: 282px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr) ; grid-auto-flow: column; grid-gap: 15px;
+}
+
+/* nowBooks style */
+.nowBooks .container li{width: 100%; display: flex;}
+
+.container li .item {width: 100%; display: flex; justify-content: center; align-content: center;}
+.container li .item .bookImg{margin-right: 24px;display: flex;align-items: center;}
+.container li .item a img{width: 50px; height: 71px;}
+.item .bookInf {width: 100%; height: 100%; display: flex; border-bottom: 1px solid #e6e8eb; align-items: center;}
+.item .bookInf h3{height: 22px; font-weight: bold;
+    text-align: center; font-size: 18px; margin-right: 21px;}
+.item .bookNam{margin-top: 10px; justify-items: center; font-family: ridi_applefont;}
+
+.item .bookNam .booktit{height: 16px; margin-bottom: 4.5px; font-weight: 700; overflow: hidden; text-overflow:ellipsis}
+.item .bookNam .bookwri{margin-bottom: 3px; color: #636C73; line-height: 1.36;}

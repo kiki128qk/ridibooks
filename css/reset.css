@@ -1,0 +1,27 @@
+/* font style */
+/* @import url('/ridibooks/data/RIDIBatang.otf') */
+
+@font-face{
+    font-family: "ridifont";
+    src: url('/ridibooks/data/font/RIDIBatang.otf') format('opentype');}
+@font-face{
+    font-family: "ridi_applefont";
+    src: url('/ridibooks/data/font/AppleSDGothicNeoL.ttf') format('opentype');
+}
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+/* Reset CSS */
+*{margin:0; padding:0; box-sizing:border-box;}
+body{font-size:14px; font-family: ridifont;}
+.clear:after{clear:both; display:block; content:'';}
+.center{width:100%; height:auto; max-width:1000px; margin:auto;}
+ol, ul{list-style:none;}
+a{text-decoration: none; color:#111;}
+img{display:block;}
+button, input, textarea{border: 0; outline:0; font-family:'ridifont'serif;}
+input{-webkit-appearance: auto; border-radius:0;}
+/* input:focus, textarea:focus{background:#f8f8f8;} */
+
+/* Contents Wrap Style */
+.wrap{width:100%; height:auto; background:#fbfbfb; display:flex; align-items: center; justify-content: space-between; flex-direction: column;}
