@@ -6,12 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RIDIBOOKS</title>
 
+    <!-- awesome link -->
+    <script defer src="https://kit.fontawesome.com/9e31582c84.js" crossorigin="anonymous"></script>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- favicon icon link -->
     <link rel="shortcut icon" type="image/x-icon" href="/ridibooks/data/rogo_icon/favicon.ico" />
+
+    <!-- ligthslider css link -->
+        <link rel="stylesheet" href="/ridibooks/plugin/lightslider.css" />
 
     <!-- css link -->
     <link rel="stylesheet" href="/ridibooks/css/reset.css" />
     <link rel="stylesheet" href="/ridibooks/css/style.css" />
+
+
 </head>
 <body>
 <div class="wrap">
@@ -96,321 +107,174 @@
                 </ul>
             </div>
         </div>
-
     </header>
     <section class="content">
-        <div class="cneter">
-            <div class="banner">배너 플래그 자리</div>
-            <ul class="quickMenuBar">
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_01.png" alt="">
-                            <span>신간</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                            <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_02.png" alt="">
-                            <span>이벤트</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_03.png" alt="">
-                            <span>베스트셀러</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_04.png" alt="">
-                            <span>빌려서가</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_05.png" alt="">
-                            <span>지금 인기세트</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_06.png" alt="">
-                            <span>신간 캘린더</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_07.png" alt="">
-                            <span>일반 혜택지도</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_08.png" alt="">
-                            <span>위클리 쿠폰</span>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="quickMenu">
-                        <a href="#">
-                           <svg class="quickMenuicon">
-                                <path d="M.001 22s-.046 4.493.453 8.846c.428 3.727 1.402 7.614 3.244 9.456 1.842 1.842 5.729 2.816 9.457 3.244 4.352.499 8.845.453 8.845.453s4.493.046 8.846-.453c3.727-.428 7.614-1.402 9.456-3.244 1.842-1.842 2.816-5.729 3.244-9.456.499-4.353.453-8.846.453-8.846s.046-4.493-.453-8.845c-.428-3.728-1.402-7.615-3.244-9.457C38.46 1.856 34.573.882 30.846.454 26.493-.045 22 .001 22 .001s-4.493-.046-8.845.453    C9.427.882 5.54 1.856 3.698 3.698 1.856 5.54.882 9.427.454 13.155-.045 17.507.001 22 .001 22">
-                                </path>
-                            </svg>
-                            <img src="/ridibooks/data/Quick_Menu/quickMenu_09.png" alt="">
-                            <span>리디페이퍼</span>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <?php
+        include $_SERVER['DOCUMENT_ROOT'].'/ridibooks/include/content.php';
+        ?>
     </section>
     <section class="slider">
         <h1>집 앞 서점에 방금 나온 신간!</h1>
-        <div class="sliderCon">
-            슬라이더 자리
-        </div>
-    </section>
-    <section class="nowBooks">
-        <h2>
-            <div class="time">
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-            </div>
-            사람들이 지금 많이 읽고 있는 책
-        </h2>
-        <div class="nowBook">
-            <ul class="container">
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_0.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>1</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">완벽한 스파이 세트</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">존 르 카레</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>2</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">빌 게이츠, 기후재앙을 피하는 법</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">빌 게이츠</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_2.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>3</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">그랜드 투어</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">설혜심</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_3.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>4</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">태도가 능력이 될 때</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">야스다 다다시</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_4.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>5</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">우한일기</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">팡팡</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_5.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>6</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">해리 포터 시리즈 개정 번역판</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">조앤.K.롤링</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_6.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>7</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">주린이가 가장 알고 싶은 최다질문 TOP77</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">염승환</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_7.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>8</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">돈의 심리학</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">모건 하우절</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="bookImg">
-                            <a href="#">
-                                <img src="/ridibooks/data/book_img/book_img_8.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="bookInf">
-                            <h3>9</h3>
-                            <div class="bookNam">
-                                <div class="booktit">
-                                    <a href="#">유리고코로</a>
-                                </div>
-                                <div class="bookwri">
-                                    <a href="#">누마타 마호카루</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+        <div class="sliderCons">
+            <ul class="rtl" id="rtl">
+            <li><img src="/ridibooks/data/book_img/book_img_0.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">완벽한 스파이 세트</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">존 르 카레</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_20.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">나의 한국 현대사</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">유시민</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_21.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">러브크래프트 컨트리</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">맷 러프</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_23.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">소년과 개</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">하세 세이슈</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_24.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">투자의 재발견</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">이고은</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_25.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">지금, 너에게 간다.</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">박성진</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_26.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">백만장자의 아주 작은 성공 습관</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">딘 그라치오시</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_7.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">돈의 심리학</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">모건 하우절</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_8.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">유리코코로</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">누마타 마호카루</a>
+                </div>
+            </li>
+            <li><img src="/ridibooks/data/book_img/book_img_9.jpg" alt="">
+                <div class="booktit">
+                    <a href="#">토지</a>
+                </div>
+                <div class="bookwri">
+                    <a href="#">박경리</a>
+                </div>
+            </li>
             </ul>
         </div>
     </section>
+    <section class="nowBooks">
+    <?php
+    include $_SERVER['DOCUMENT_ROOT'].'/ridibooks/include/nowBooks.php'
+    ?>
+    </section>
+    <section class='today'>
+        <div class="center">
+            <div class="clickSlider">
+                <h2>
+                오늘, 리디의 발견
+                </h2>
+                <div class="clSlcontent">
+                    <div class="todayslider">
+                        <ul class="rtl" id="rtl2">
+                        <li><img src="/ridibooks/data/book_img/book_img_10.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">공정하다는 착각</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_11.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">기억</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_12.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">모든 것을 기억하는 남자</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_13.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">달러그투 꿈 백화점</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_14.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">녹정기</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_15.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">달란트투자의 주식교과서</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_16.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">나는 나무처럼 살고 싶다</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_17.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">천둥의 계절</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_18.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">아메리칸 더트</a>
+                            </div>
+                        </li>
+                        <li><img src="/ridibooks/data/book_img/book_img_19.jpg" alt="">
+                            <div class="booktit">
+                                <a href="#">컴버전스 2030</a>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/ridibooks/plugin/lightslider.js"></script>
+
+<script src="/ridibooks/js/bannerSli.js"></script>
 </body>
 </html>

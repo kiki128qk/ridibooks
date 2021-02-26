@@ -8,9 +8,6 @@
     font-family: "ridi_applefont";
     src: url('/ridibooks/data/font/AppleSDGothicNeoL.ttf') format('opentype');
 }
-@import "font-awesome-sprockets";
-@import "font-awesome";
-
 /* Reset CSS */
 *{margin:0; padding:0; box-sizing:border-box;}
 body{font-size:14px; font-family: ridifont;}
