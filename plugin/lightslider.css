@@ -67,6 +67,7 @@
 .lSSlideWrapper .lSFade > *.active {
     z-index: 10;
 }
+
 .lSSlideWrapper.usingCss .lSFade > *.active {
     opacity: 1;
 }
@@ -179,15 +180,18 @@
     opacity: 1;
 }
 
-.todayslider .lSAction > .lSPrev{left:-5%; background-image: url('/ridibooks/data/rogo_icon/perv.png');}
-.todayslider .lSAction > .lSNext{right:-5%;background-image: url('/ridibooks/data/rogo_icon/next.png');}
+.todayslider .lSAction > .lSPrev{left:-5%; }
+.todayslider .lSAction > .lSNext{right:-5%;}
 .lSAction > .lSPrev {
     background-position: 0 0;
     left: 400px;
+    /* background-image: url('/ridibooks/data/rogo_icon/perv.png'); */
 }
 .lSAction > .lSNext {
     background-position: -32px 0;
     right: 400px;
+    /* background-image: url('/ridibooks/data/rogo_icon/next.png');
+    background-size: cover; */
 }
 .lSAction > a.disabled {
     pointer-events: none;

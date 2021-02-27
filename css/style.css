@@ -57,7 +57,7 @@ header .mainMenu{ width: 100%; height: auto;background: #1F8CE6; margin: auto;}
 .slider_wrapper{position: relative; width: 1320px; margin: 0 auto; height: 300px; overflow: hidden;}
 .slider_wrapper .slides{position:absolute; left: 0; top: 0; transition: left 0.5s;}
 
-.slider_wrapper .slides li{float: left;}
+.slider_wrapper .slides li{float: left; }
 .slider_wrapper .slides li img{width: 430px;margin: 0 5px;}
 
 

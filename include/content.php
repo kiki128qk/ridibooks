@@ -2,7 +2,6 @@
             <div class="bannerSli">
             <div class="slider_wrapper">
            <ul class="slides" id="slides">
-
                 <li><img src="/ridibooks/data/Banner/Banner_1.jpg" alt=""></li>
                 <li><img src="/ridibooks/data/Banner/Banner_2.jpg" alt=""></li>
                 <li><img src="/ridibooks/data/Banner/Banner_3.jpg" alt=""></li>

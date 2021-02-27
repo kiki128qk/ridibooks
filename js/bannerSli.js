@@ -29,8 +29,8 @@ $(function(){
     });
     
   });
-// $(".lSPrev").html("<i class='fas fa-angle-left'></i>");
-// $(".lSNext").html("<i class='fas fa-angle-right'></i>");
+$(".lSPrev").html("<i class='fas fa-angle-left fa-2x' ></i>");
+$(".lSNext").html("<i class='fas fa-angle-right fa-2x'></i>");
 });
 
 
